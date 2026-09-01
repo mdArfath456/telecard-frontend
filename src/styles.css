@@ -1311,6 +1311,11 @@ textarea {
 }
 .table-panel {
   overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.table-panel::-webkit-scrollbar {
+  display: none;
 }
 table {
   width: 100%;
@@ -1419,6 +1424,11 @@ th {
   overflow: auto;
   padding: 24px;
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.3);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.modal::-webkit-scrollbar {
+  display: none;
 }
 .modal.large {
   width: min(900px, 100%);
